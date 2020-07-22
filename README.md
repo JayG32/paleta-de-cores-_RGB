@@ -43,12 +43,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
      #Entre na pasta do projeto
     cd paleta-de-cores-_RGB
 
-    #Instale as dependencias
-    npm install
-
-    #Execute a aplicação
-    npm start
-
 ```
 
 ---
