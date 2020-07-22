@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+         <link rel="stylesheet" href="./css/cssReset.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="cxBranca">
+
+                <div class="titulo">
+                     <h1>RGB</h1>
+                </div>
+               
+               <div class="conteudo">
+
+                    <div class="cores">
+                        <div class="vermelho">
+                            <p>(R) RED: </p>
+                            <input class='slider' type="range" id='sliderVermelho' min='0' max='255' step='1' value='0' >
+                            <input type="text" id='inputVermelho' readonly>
+                        </div>
+
+                        <div class="verde">
+                            <p>(G) GREEN: </p>
+                            <input class='slider' type="range" id='sliderVerde' min='0' max='255' step='1' value='0' >
+                            <input type="text" id='inputVerde' readonly>
+                        </div>
+
+                        <div class="azul">
+                            <p>(B) BLUE: </p>
+                            <input class='slider' type="range" id='sliderAzul' min='0' max='255' step='1' value='0' >
+                            <input type="text" id='inputAzul' readonly>
+                        </div>
+                    </div>
+                    
+
+                    <div class="cxCores">
+                    </div>
+
+               </div>
+                
+            </div>
+        </div>
+        
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+@import 'https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap';
+
+body{
+    margin: 0px;
+    background: url('../img/01.jpg');
+    font-family: 'Permanent Marker', cursive;
+}
+
+.container{
+    /* border: 1px solid red; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: rgb(37, 9, 35); */
+    
+}
+
+.cxBranca{
+    /* border: 1px solid red; */
+    width: 1000px;
+    height: 450px;
+    border-radius: 50px;
+    display: block;
+    flex-direction: column;
+    background: url('../img/02.jpg');
+    /* opacity: 0.8; */
+    /* background: #fff; */
+    
+}
+
+.titulo{
+    /* border: 1px solid red; */
+    width: 220px;
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+.conteudo{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+}
+.vermelho{
+    /* border: 1px solid red; */
+    color: red;
+    font-weight: bold;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 590px; */
+    /* align-items: center; */
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.verde{
+    /* border: 1px solid red; */
+    color: green;
+    font-weight: bold;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 590px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.azul{
+    /* border: 1px solid red; */
+    color: blue;
+    font-weight: bold;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 590px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.cxCores{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+
+#sliderVermelho,
+#sliderVerde,
+#sliderAzul{
+    -webkit-appearance: none;
+    width: 100px;
+    height: 6px;
+    outline: none;
+    border-radius: 15px;
+}
+
+#sliderVermelho{background-color: red;}
+#sliderVerde{background-color: green;}
+#sliderAzul{background-color: blue;}
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 30px;
+    /* background: #9f9eale7; */
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.vermelho,
+.verde,
+.azul{
+    width: 400px;
+    font-size: 20px;
+}
+
+.vermelho #inputVermelho,
+.verde #inputVerde,
+.azul #inputAzul{
+    width: 30px;
+    cursor: initial;
+    color: black;
+    font-weight: bold;
+    border: 2px solid rgb(150, 138, 138);
+    border-radius: 6px;
+}
