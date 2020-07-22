@@ -38,10 +38,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 ```bash
 
     #Clonar repositório
-    $ git clone https://github.com/JayG32/rgb
+    $ git clone https://github.com/JayG32/paleta-de-cores-_RGB
 
      #Entre na pasta do projeto
-    cd rgb
+    cd paleta-de-cores-_RGB
 
     #Instale as dependencias
     npm install
