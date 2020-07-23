@@ -14,7 +14,7 @@ Projeto **RGB** é uma atividade pratica desenvolvida como sugestão de exercici
 
 O projeto possui um range para seleção de cores e uma paleta com as cores correspondentes.
 
-E a página receitas com todas as receitas do site disposta através do conceito de  **grids**
+Na paleta de cores também é possível visualizar a conversão dos valores para Hexadecimal
 
 
 ##  ❗ Tópicos Importantes
