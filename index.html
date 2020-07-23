@@ -14,7 +14,7 @@
             <div class="cxBranca">
 
                 <div class="titulo">
-                     <h1>RGB</h1>
+                     <h1>RGB & HEXA</h1>
                 </div>
                
                <div class="conteudo">
@@ -22,26 +22,32 @@
                     <div class="cores">
                         <div class="vermelho">
                             <p>(R) RED: </p>
-                            <input class='slider' type="range" id='sliderVermelho' min='0' max='255' step='1' value='0' >
+                            <input class='slider' type="range" id='sliderVermelho' min='0' max='255' step='1' value='0' onchange='changeRange()' >
                             <input type="text" id='inputVermelho' readonly>
                         </div>
 
                         <div class="verde">
                             <p>(G) GREEN: </p>
-                            <input class='slider' type="range" id='sliderVerde' min='0' max='255' step='1' value='0' >
+                            <input class='slider' type="range" id='sliderVerde' min='0' max='255' step='1' value='0' onchange='changeRange()'v>
                             <input type="text" id='inputVerde' readonly>
                         </div>
 
                         <div class="azul">
                             <p>(B) BLUE: </p>
-                            <input class='slider' type="range" id='sliderAzul' min='0' max='255' step='1' value='0' >
+                            <input class='slider' type="range" id='sliderAzul' min='0' max='255' step='1' value='0' onchange='changeRange()' >
                             <input type="text" id='inputAzul' readonly>
                         </div>
                     </div>
                     
+                   
 
                     <div class="cxCores">
+                        <div class="hexa">
+                            <span id="hex-label">#ffffff</span>
+                        </div>
                     </div>
+
+                    
 
                </div>
                 
